@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-image: url(/img/Background.png);
+    background-position: center center;
+    padding: 60px 0px 269px 0px;
+}
+
+.conteiner {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a {
+    color: #f1cdb3;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.logo p {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.header-nav a {
+    color: #cdcdcd;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.header-nav a:hover {
+    text-decoration: #f1cdb3;
+    text-decoration-line: underline;
+    margin-bottom: 3px;
+}
+
+.header-bottom h2 {
+    font-size: 44px;
+    color: #ffffff;
+}
+
+.header-bottom p {
+    color: #ffffff;
+    margin-top: 38px;
+
+}
+
+.header-bottom button {
+    background-color: #f1cdb3;
+    padding: 15px 70px 15px 70px;
+    border-radius: 60px;
+    border: #f1cdb3;
+    margin-top: 38px;
+}
+
+.butt {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.header-bottom {
+    margin-top: 233px;
+}
+
+.advantages {
+    margin: 86px 0px 95px 0px;
+}
+
+.advantage {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    width: 30%;
+}
+
+.pets {
+    width: 50%;
+    text-align: right;
+}
+
+.info h1 {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.info p {
+    margin-bottom: 35px;
+}
+
+.selection {
+    background-color: #f6f6f6;
+    padding: 81px 0px 81px 0px;
+}
+
+.our-pets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-pets button {
+    padding: 15px 50px 15px 50px;
+    border-radius: 70px;
+    border: 2px solid #f1cdb3;
+    background-color: #f1cdb3;
+}
+
+.asortie {
+    text-align: center;
+    margin: 103px;
+}
+
+.www button {
+    padding: 15px 100px 15px 100px;
+    border-radius: 70px;
+    border: 2px solid #f1cdb3;
+    background-color: #f1cdb3;
+}
+
+.www {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.www button:hover {
+    background-color: #ffffff;
+}
+
+.Woodie img {
+    height: 300px;
+}
+
+.Jennifer img {
+    height: 300px;
+}
+
+.Katrine img {
+    height: 270px;
+    width: 250px;
+    margin-top: 12px;
+}
+
+.our-pets button:hover {
+    background-color: #ffffff;
+}
+
+.our-pets p {
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.our-pets {
+    align-items: center;
+}
+
+.Katrine {
+    background-color: #ffffff;
+    text-align: center;
+    width: 23%;
+}
+
+.Jennifer {
+    background-color: #ffffff;
+    text-align: center;
+    width: 23%;
+}
+
+.Woodie {
+    background-color: #ffffff;
+    text-align: center;
+    width: 23%;
+}
+
+.Katrine button {
+    margin-bottom: 30px;
+}
+
+.Jennifer button {
+    margin-bottom: 10px;
+}
+
+.Woodie button {
+    margin-bottom: 10px;
+}
+
+/* нова секція */
+.food {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-flow: row wrap;
+
+}
+
+.one {
+    width: 20%;
+}
+
+.two {
+    width: 20%;
+}
+
+.three {
+    width: 20%;
+}
+
+.four {
+    width: 20%;
+}
+
+.five {
+    width: 20%;
+}
+
+.six {
+    width: 25%;
+    margin-top: 79px;
+}
+
+.seven {
+    width: 25%;
+    margin-top: 79px;
+}
+
+.eight {
+    width: 25%;
+    margin-top: 79px;
+}
+
+.nine {
+    width: 25%;
+    margin-top: 79px;
+}
+
+.how {
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.help {
+    padding: 71px;
+}
+
+/* остання секція */
+.donations {
+    background-color: #f6f6f6;
+    padding: 82px 0px 82px 0px;
+}
+
+.ttt {
+    display: flex;
+}
+
+.donate {
+    width: 50%;
+}
+
+.donate a {
+    text-decoration: none;
+    color: black;
+    background-color: #f1cdb3;
+    border-radius: 10px;
+    padding: 8px 0px 8px 5px;
+    width: 55%;
+    text-align: center;
+}
+
+.donate input {
+    border: #ffffff;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.donate p {
+    color: #cdcdcd;
+    margin-top: 36px;
+    width: 50%;
+}
+
+.donate h2 {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+    margin-right: 30px;
+}
+.donate a img{
+    margin-right: 10px ;
+}
+.questions{
+    display: flex;
+    background-image:url(/img/Background2.png) ;
+    padding: 51px 0px 66px 0px;
+}
